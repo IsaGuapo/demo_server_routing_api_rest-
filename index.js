@@ -28,7 +28,7 @@ app.use("/api", productApiRouter)
 
 //******Manejo de errores PAGINA 404*************//
 // http://localhost:3000/products=3?API_KEY=hola123
-app.use(error404)
+app.use(errors.error404);
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
