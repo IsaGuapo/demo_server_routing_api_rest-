@@ -2,7 +2,7 @@
 const express = require('express')
 const productRouter =  require('./routes/product')
 const productApiRouter =  require('./routes/productApi')
-const error404 =  require('./middleware/errors')
+const errors=  require('./middleware/errors')
 
 
 const app = express()
